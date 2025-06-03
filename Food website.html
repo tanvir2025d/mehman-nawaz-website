@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehman Nawaz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu, .order-form {
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu-item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            margin: 10px;
+            width: 200px;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 05px 0;
+            position: Footer;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mehman Nawaz Cafe</h1>
+        <h2>Dr. Naseeb Sah</h2>
+       <h3>Address: Kot Sarang, District: Talagang, Zip Code: 01++++, Pakistan</h3>
+       <h4>Contact No:+92 01+++++++++</h4>
+        <p>Serving you with great taste and hospitality</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order Now</a>
+        <a href="#payment">Payment Options</a>
+    </nav>
+
+    <div class="container" id="menu">
+        <h2>Food Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="food1.jpg" alt="Food 1">
+                <p>Food 1</p>
+                <p>Rs 200</p>
+            </div>
+            <div class="menu-item">
+                <img src="food2.jpg" alt="Food 2">
+                <p>Food 2</p>
+                <p>Rs 250</p>
+            </div>
+            <div class="menu-item">
+                <img src="food3.jpg" alt="Food 3">
+                <p>Food 3</p>
+                <p>Rs 300</p>
+            </div>
+            </div>
+            <div class="menu-item">
+                <img src="food3.jpg" alt="Food 4">
+                <p>Food 4</p>
+                <p>Rs 350</p>
+             </div>
+            </div>
+            <div class="menu-item">
+                <img src="food3.jpg" alt="Food 5">
+                <p>Food 5</p>
+                <p>Rs 400</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="order">
+        <h2>Order Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="phone">Mobile Number:</label>
+            <input type="text" id="phone" name="phone" required><br><br>
+
+            <label for="table">Table Number:</label>
+            <input type="number" id="table" name="table" required><br><br>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+        <div class="container" id="payment">
+        <h2>Payment Options</h2>
+        <p>You can pay via:</p>
+        <ul>
+            <li>Credit/Debit Card</li>
+            <li>Google pay</li>
+            <li>Jazz Cash</li>
+            <li>Easy Paisa</li>
+            <li>Cash Payment</li>
+        </ul>
+    </div>
+
+	</div>
+	<footer>
+        <p>&copy; 2025 Mehman Nawaz. All rights reserved.</p>
+    </footer>
+	</div>
+</html>
+
